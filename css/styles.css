@@ -22,6 +22,8 @@
   --main-features-header-color: #212121;
   --main-features-background-color: #f5f4fa;
   --main-features-text-color: #757575;
+  --main-functions-label-text-color: #ffffff;
+  --main-functions-label-background-color: rgba(47, 48, 58, 0.8);
 
   --main-team-background-color: #f5f4fa;
   --main-team-photo-background-color: #ffffff;
@@ -351,9 +353,34 @@ body {
   margin-top: 0;
   margin-bottom: 0;
 }
+.functions-section-list-item {
+  position: relative;
+}
 
 .functions-section-list-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.function-section-list-item-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  background: var(--main-functions-label-background-color);
+}
+.function-section-list-item-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-functions-label-text-color);
 }
 
 /* Секция "Наша команда" */
