@@ -79,11 +79,22 @@
             Эффективные решения <br />
             для вашего бизнеса
           </h1>
-          <button class="hero-section-button" type="button">
+          <button class="hero-section-button" type="button" data-modal-open>
             Заказать услугу
           </button>
         </div>
       </section>
+
+      <!-- Окно "Заказать услугу"-->
+      <div class="hero-section-modal-backdrop is-hidden" data-modal>
+        <div class="hero-section-modal">
+          <button class="hero-section-modal-button-close" data-modal-close>
+            x
+          </button>
+          <p></p>
+        </div>
+      </div>
+
       <!-- Секция "Особенности" -->
       <section class="features-section">
         <div class="container">
@@ -663,5 +674,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
