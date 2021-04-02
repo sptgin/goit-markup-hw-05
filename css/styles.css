@@ -325,6 +325,13 @@ body {
   height: 30px;
 }
 
+.modal-icons {
+  width: 11px;
+  height: 11px;
+  fill: black;
+  transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /* Секция "Особенности" */
 .features-section {
   padding-top: 94px;
