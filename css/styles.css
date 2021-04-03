@@ -848,7 +848,7 @@ body {
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.06em;
   color: var(--portfolio-project-list-header-color);
 }
@@ -873,7 +873,7 @@ body {
   padding-right: 24px;
   padding-left: 24px;
   font-size: 18px;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   background-color: var(--portfolio-project-list-hover-background-color);
   color: var(--portfolio-default-background-color);
